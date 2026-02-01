@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Hobby Business Incubation | Professional Advisory</title>
+    <meta name="description" content="完全審査制・事業化支援プログラム - Executive Hobby Business Incubation">
+
+    <!-- Fonts: Noto Sans JP -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            brand: '#0f172a', // Dark Navy (Slate 900)
+                            light: '#1e293b', // Slate 800
+                        },
+                        slate: {
+                            body: '#475569', // Slate 600
+                            bg: '#f8fafc',    // Slate 50
+                        },
+                        gold: {
+                            accent: '#b45309', // Amber 700 - Professional Gold/Bronze
+                            light: '#fef3c7',  // Amber 100
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-slate-600 min-h-screen flex flex-col items-center">
+
+    <!-- Top Navigation Bar (Branding) -->
+    <nav class="w-full bg-white border-b border-gray-200 py-4 px-6 fixed top-0 z-50">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <div class="font-bold text-navy-brand tracking-tight text-lg">EHBI <span class="font-light text-slate-400">|
+                    Incubation</span></div>
+            <div class="text-xs font-medium text-slate-400 uppercase tracking-widest hidden md:block">System Status:
+                Maintenance</div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="w-full max-w-5xl px-6 pt-28 pb-20 space-y-16">
+
+        <!-- 1. Concept Section (2-Column Layout) -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+
+            <!-- Left Column: Text -->
+            <div class="space-y-6 order-2 md:order-1">
+                <div class="space-y-2">
+                    <h2 class="text-xl md:text-2xl font-bold text-navy-brand leading-tight">
+                        ただの「浪費」で終わらせるか。<br>
+                        それとも、「収益事業」へと昇華させるか。
+                    </h2>
+                    <div class="w-16 h-1 bg-gold-accent rounded"></div>
+                </div>
+
+                <p class="text-base leading-7 text-slate-600 font-medium">
+                    経営者の「趣味」を、Kindle・動画・SNSを駆使して「正当なビジネス資産」へと再構築する、完全審査制・事業化支援プログラム。
+                </p>
+
+                <div class="bg-white border-l-4 border-navy-brand p-4 shadow-sm rounded-r-md">
+                    <p class="text-sm text-slate-500 italic">
+                        私たちのミッションは、貴方の情熱を「持続可能な収益モデル」へと変換することです。
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Column: Image -->
+            <div class="order-1 md:order-2">
+                <div class="relative group">
+                    <!-- Image -->
+                    <img src="img/hero.jpeg" alt="High-End Consulting Workspace"
+                        class="rounded-lg shadow-xl w-full object-cover h-64 md:h-80 transform transition duration-500 group-hover:scale-[1.02]">
+
+                    <!-- Decorative Element -->
+                    <div
+                        class="absolute -bottom-4 -right-4 w-24 h-24 bg-gray-100 rounded-lg -z-10 border border-gray-200">
+                    </div>
+                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-navy-brand/5 rounded-lg -z-10"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Divider -->
+        <div class="w-full border-t border-gray-200"></div>
+
+        <!-- 2. Hero / Status Section (Centered) -->
+        <section class="text-center max-w-3xl mx-auto space-y-6 animate-[fadeIn_1s_ease-out]">
+            <div
+                class="inline-block px-3 py-1 rounded-full bg-navy-brand text-white text-xs font-bold tracking-widest uppercase mb-4">
+                Service Announcement
+            </div>
+
+            <h1 class="text-2xl md:text-3xl font-bold text-navy-brand leading-relaxed">
+                現在、想定を大幅に上回るお申し込みにより、<br>
+                新規のコンサルティング受付を停止しております。<br>
+                <span class="text-lg md:text-xl font-normal text-slate-500 block mt-4">大変申し訳ございません。</span>
+            </h1>
+        </section>
+
+        <!-- 3. Next Opening Info (Scarcity) -->
+        <section
+            class="bg-white border border-gray-200 rounded-xl p-8 md:p-10 text-center shadow-lg max-w-2xl mx-auto relative overflow-hidden">
+            <div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-navy-brand via-slate-400 to-navy-brand">
+            </div>
+
+            <p class="text-sm font-bold text-gold-accent uppercase tracking-widest mb-3">Next Application Period</p>
+            <h3 class="text-xl text-navy-brand font-bold mb-2">【次回募集開始（予定）】</h3>
+            <p class="text-3xl md:text-4xl font-bold text-navy-brand mt-2 font-mono tracking-tight">
+                2026.03.25 <span class="text-xl text-slate-400 font-normal">Wed</span> <span
+                    class="text-2xl">12:00〜</span>
+            </p>
+            <p class="text-xs md:text-sm text-slate-400 mt-4 bg-slate-50 inline-block px-4 py-1 rounded-full">
+                ※サービスの品質保持のため、「月間数社限定」での再開となります。
+            </p>
+        </section>
+
+        <!-- 4. Policy/Warning Section (Risk Hedge) -->
+        <section class="max-w-3xl mx-auto">
+            <div class="bg-white border-2 border-red-100 rounded-lg p-6 md:p-8 shadow-sm relative">
+                <!-- Red Alert Stripe on Left -->
+                <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-red-500 rounded-l-lg"></div>
+
+                <h3 class="text-base md:text-lg font-bold text-red-600 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                    Warning：ご依頼をご検討中の経営者様へ
+                </h3>
+
+                <div class="text-sm md:text-base leading-7 text-slate-700 space-y-3 text-justify">
+                    <p>本サービスは、単なる「形式的な処理」を代行するものではありません。</p>
+                    <ul class="list-none space-y-2 pl-2">
+                        <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-red-500 mt-0.5 shrink-0" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="font-bold text-navy-brand">「本気で黒字化を目指す事業計画」</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-red-500 mt-0.5 shrink-0" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="font-bold text-navy-brand">「視聴者に価値を提供するコンテンツ制作」</span>
+                        </li>
+                    </ul>
+                    <p class="pt-2 text-slate-600">
+                        この2点にコミットできる経営者様のみ、私たちは全力でサポートいたします。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="w-full border-t border-gray-200"></div>
+
+        <!-- 5. Service Flow Section -->
+        <section class="max-w-5xl mx-auto space-y-10">
+            <div class="text-center space-y-2">
+                <p class="text-xs font-bold text-gold-accent uppercase tracking-widest">Process</p>
+                <h2 class="text-2xl font-bold text-navy-brand">Service Flow</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Step 01 -->
+                <div
+                    class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm relative overflow-hidden group hover:border-navy-brand transition duration-300">
+                    <div
+                        class="text-5xl font-bold text-gray-100 absolute -top-2 -right-2 z-0 font-mono group-hover:text-gray-50 transition">
+                        01</div>
+                    <div class="relative z-10 space-y-3">
+                        <div
+                            class="w-10 h-10 bg-navy-brand rounded-full flex items-center justify-center text-white font-bold mb-2">
+                            01</div>
+                        <h3 class="font-bold text-navy-brand text-lg">事業計画策定</h3>
+                        <p class="text-sm text-slate-500 font-medium leading-relaxed">趣味の詳細の棚卸しと<br>収益化設計</p>
+                    </div>
+                </div>
+
+                <!-- Step 02 -->
+                <div
+                    class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm relative overflow-hidden group hover:border-navy-brand transition duration-300">
+                    <div
+                        class="text-5xl font-bold text-gray-100 absolute -top-2 -right-2 z-0 font-mono group-hover:text-gray-50 transition">
+                        02</div>
+                    <div class="relative z-10 space-y-3">
+                        <div
+                            class="w-10 h-10 bg-navy-brand rounded-full flex items-center justify-center text-white font-bold mb-2">
+                            02</div>
+                        <h3 class="font-bold text-navy-brand text-lg">資産構築</h3>
+                        <p class="text-sm text-slate-500 font-medium leading-relaxed">Kindle出版・動画編集<br>SNS運用</p>
+                    </div>
+                </div>
+
+                <!-- Step 03 -->
+                <div
+                    class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm relative overflow-hidden group hover:border-navy-brand transition duration-300">
+                    <div
+                        class="text-5xl font-bold text-gray-100 absolute -top-2 -right-2 z-0 font-mono group-hover:text-gray-50 transition">
+                        03</div>
+                    <div class="relative z-10 space-y-3">
+                        <div
+                            class="w-10 h-10 bg-navy-brand rounded-full flex items-center justify-center text-white font-bold mb-2">
+                            03</div>
+                        <h3 class="font-bold text-navy-brand text-lg">運用・スケール</h3>
+                        <p class="text-sm text-slate-500 font-medium leading-relaxed">効果測定と<br>事業拡大</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Deliverables Section -->
+        <section class="max-w-4xl mx-auto bg-slate-50 rounded-xl p-8 md:p-10 border border-gray-200">
+            <div class="text-center space-y-2 mb-10">
+                <p class="text-xs font-bold text-gold-accent uppercase tracking-widest">Output</p>
+                <h2 class="text-2xl font-bold text-navy-brand">Deliverables</h2>
+                <p class="text-sm text-slate-500">本プログラムで入手できる制作物</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <!-- Item 1 -->
+                <div
+                    class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center gap-4 hover:shadow-md transition">
+                    <div class="p-3 bg-navy-brand/5 rounded-full">
+                        <svg class="w-6 h-6 text-navy-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <span class="font-bold text-slate-600 text-sm leading-tight">
+                        社長の<span class="text-navy-brand">人間力をブランド化する</span><br>
+                        Kindle書籍化<br>
+                        を通して本業へ還流
+                    </span>
+                </div>
+                <!-- Item 2 -->
+                <div
+                    class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center gap-4 hover:shadow-md transition">
+                    <div class="p-3 bg-navy-brand/5 rounded-full">
+                        <svg class="w-6 h-6 text-navy-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <span class="font-bold text-slate-600 text-sm leading-tight">
+                        社長の<span class="text-navy-brand">世界観で集客する</span><br>
+                        YouTube/Tiktok動画化<br>
+                        を通して本業へ還流
+                    </span>
+                </div>
+                <!-- Item 3 -->
+                <div
+                    class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center gap-4 hover:shadow-md transition">
+                    <div class="p-3 bg-navy-brand/5 rounded-full">
+                        <svg class="w-6 h-6 text-navy-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <span class="font-bold text-slate-600 text-sm leading-tight">
+                        社長の<span class="text-navy-brand">ファンを育成する</span><br>
+                        LINE/メルマガコミュニティ<br>
+                        を通して本業へ還流</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 5. Footer -->
+    <footer class="w-full bg-white border-t border-gray-200 py-8 text-center">
+        <p class="text-[10px] md:text-xs text-slate-400 font-medium tracking-widest uppercase">
+            Copyright © 2026 Executive Hobby Business Incubation. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
